@@ -1,0 +1,109 @@
+{
+  "formatVersion": 1,
+  "recordCount": 1000,
+  "fields": [
+    {
+      "name": "顧客ID",
+      "dataType": "Sequence",
+      "nullRate": 0,
+      "unique": true,
+      "startValue": 1000,
+      "increment": 1
+    },
+    {
+      "name": "氏名",
+      "dataType": "JapaneseName",
+      "nullRate": 0,
+      "unique": false,
+      "nameFormat": "FullName"
+    },
+    {
+      "name": "フリガナ",
+      "dataType": "JapaneseName",
+      "nullRate": 5,
+      "unique": false,
+      "nameFormat": "FullNameKana"
+    },
+    {
+      "name": "年齢",
+      "dataType": "Number",
+      "nullRate": 0,
+      "unique": false,
+      "minValue": 18,
+      "maxValue": 80,
+      "decimalPlaces": 0
+    },
+    {
+      "name": "生年月日",
+      "dataType": "Date",
+      "nullRate": 2,
+      "unique": false,
+      "startDate": "1946-01-01T00:00:00",
+      "endDate": "2008-12-31T00:00:00",
+      "dateFormat": "yyyy/MM/dd"
+    },
+    {
+      "name": "メールアドレス",
+      "dataType": "Email",
+      "nullRate": 0,
+      "unique": true,
+      "emailDomain": "example.com",
+      "emailMode": "Sequential"
+    },
+    {
+      "name": "電話番号",
+      "dataType": "Phone",
+      "nullRate": 10,
+      "unique": false,
+      "phoneType": "Mixed"
+    },
+    {
+      "name": "郵便番号",
+      "dataType": "PostalCode",
+      "nullRate": 0,
+      "unique": false
+    },
+    {
+      "name": "住所",
+      "dataType": "Address",
+      "nullRate": 10,
+      "unique": false
+    },
+    {
+      "name": "ポイント",
+      "dataType": "Number",
+      "nullRate": 0,
+      "unique": false,
+      "minValue": 0,
+      "maxValue": 100000,
+      "decimalPlaces": 2
+    },
+    {
+      "name": "登録日時",
+      "dataType": "Date",
+      "nullRate": 0,
+      "unique": false,
+      "startDate": "2025-01-01T00:00:00",
+      "endDate": "2026-09-30T00:00:00",
+      "dateFormat": "yyyy/MM/dd HH:mm:ss"
+    },
+    {
+      "name": "会員コード",
+      "dataType": "String",
+      "nullRate": 0,
+      "unique": true,
+      "minLength": 8,
+      "maxLength": 8,
+      "charSet": "UpperCase",
+      "customChars": "",
+      "prefix": "M-"
+    },
+    {
+      "name": "ステータス",
+      "dataType": "Fixed",
+      "nullRate": 0,
+      "unique": false,
+      "fixedValue": "ACTIVE"
+    }
+  ]
+}

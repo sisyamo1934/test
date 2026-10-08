@@ -1,0 +1,94 @@
+TestDataMaker ソフトウェア使用許諾契約書
+
+本契約は、TestDataMaker（以下「本ソフトウェア」）の使用条件を定めるものです。
+本ソフトウェアをインストールまたは使用した時点で、本契約に同意したものとみなします。
+
+第1条（使用許諾）
+1. 本ソフトウェアを正規に購入したお客様（以下「使用者」）は、本ソフトウェアを業務・個人を問わず使用できます。
+2. 1ライセンスにつき、使用者本人が使用する複数のPCにインストールして使用できます。
+3. 法人で複数の従業員が使用する場合は、使用する人数分のライセンスが必要です。
+
+第2条（禁止事項）
+使用者は、次の行為をしてはなりません。
+1. 本ソフトウェアの全部または一部を、有償・無償を問わず第三者に再配布、譲渡、貸与すること。
+2. 本ソフトウェアを改変、リバースエンジニアリング、逆コンパイル、逆アセンブルすること（法令で認められる場合を除く）。
+3. 本ソフトウェアで生成したデータを、実在する個人の情報であるかのように偽って使用すること。
+4. その他、法令または公序良俗に反する目的で本ソフトウェアを使用すること。
+
+第3条（生成データ）
+本ソフトウェアで生成したデータの権利は使用者に帰属し、使用者は自由に使用できます。
+生成データはテスト用のダミーデータであり、実在の人物・住所・電話番号等との一致は偶然によるものです。
+
+第4条（著作権）
+本ソフトウェアの著作権は作者に帰属します。
+
+第5条（免責）
+1. 作者は、本ソフトウェアに不具合がないこと、および使用者の特定の目的に適合することを保証しません。
+2. 作者は、本ソフトウェアの使用または使用できないことにより生じた直接的・間接的な損害（データの消失、業務の中断等を含む）について、一切の責任を負いません。
+
+第6条（契約の終了）
+使用者が本契約に違反した場合、作者は本契約を終了できます。その場合、使用者は本ソフトウェアを直ちに削除するものとします。
+
+Copyright (c) 2026 TestDataMaker. All rights reserved.
+
+
+====================================================================
+サードパーティソフトウェアのライセンス
+====================================================================
+
+本ソフトウェアには、以下のオープンソースソフトウェアが含まれています。
+
+--------------------------------------------------------------------
+.NET Runtime / Windows Forms
+https://github.com/dotnet/runtime
+https://github.com/dotnet/winforms
+--------------------------------------------------------------------
+The MIT License (MIT)
+
+Copyright (c) .NET Foundation and Contributors
+
+All rights reserved.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+--------------------------------------------------------------------
+Open XML SDK (DocumentFormat.OpenXml)
+https://github.com/dotnet/Open-XML-SDK
+--------------------------------------------------------------------
+The MIT License (MIT)
+
+Copyright (c) Microsoft Corporation
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
